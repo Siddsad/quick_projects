@@ -2,8 +2,8 @@
 meeting_code_input = input("Enter your Meeting ID: ")
 
 def meeting_identifier(meeting_code_input):
-    a = meeting_code_input[0:3]
-    b = meeting_code_input[3:7]
+    a = meeting_code_input[0:4]
+    b = meeting_code_input[4:7]
     c = meeting_code_input[7:10]
     meeting_code_input = a + "-" + b + "-" + c
     if meeting_code_input == "abc-defg-hij":
